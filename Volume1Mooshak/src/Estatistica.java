@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Estatistica {
     static Scanner input = new Scanner(System.in);
 
@@ -8,7 +7,6 @@ public class Estatistica {
             array[i]=input.nextInt();
         }
     }
-
     public static void print_array(int[] array){
         for(int i=0;i<array.length;i++){
             System.out.println(array[i]);
