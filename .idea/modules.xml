@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desafios/Desafios.iml" filepath="$PROJECT_DIR$/Desafios/Desafios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ED.iml" filepath="$PROJECT_DIR$/.idea/ED.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume4Mooshack/ED194/ED194.iml" filepath="$PROJECT_DIR$/Volume4Mooshack/ED194/ED194.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume4Mooshak/MyQueue/MyQueue.iml" filepath="$PROJECT_DIR$/Volume4Mooshak/MyQueue/MyQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume4Mooshak/MyStack/MyStack.iml" filepath="$PROJECT_DIR$/Volume4Mooshak/MyStack/MyStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume3Mooshak/Pim Pam Pum/Pim Pam Pum.iml" filepath="$PROJECT_DIR$/Volume3Mooshak/Pim Pam Pum/Pim Pam Pum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/TAD Matriz/TAD Matriz.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/TAD Matriz/TAD Matriz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/TAD Rectângulo/TAD Rectângulo.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/TAD Rectângulo/TAD Rectângulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume1Mooshak/Volume1Mooshak.iml" filepath="$PROJECT_DIR$/Volume1Mooshak/Volume1Mooshak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume2Mooshak/Volume2Mooshak.iml" filepath="$PROJECT_DIR$/Volume2Mooshak/Volume2Mooshak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume3Mooshak/Volume3Mooshak.iml" filepath="$PROJECT_DIR$/Volume3Mooshak/Volume3Mooshak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume4Mooshak/Volume4Mooshak.iml" filepath="$PROJECT_DIR$/Volume4Mooshak/Volume4Mooshak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Volume3Mooshak/ex188-193/ex188-193.iml" filepath="$PROJECT_DIR$/Volume3Mooshak/ex188-193/ex188-193.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ficha1/ficha1.iml" filepath="$PROJECT_DIR$/ficha1/ficha1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ficha2/ficha2.iml" filepath="$PROJECT_DIR$/ficha2/ficha2.iml" />
+    </modules>
+  </component>
+</project>
