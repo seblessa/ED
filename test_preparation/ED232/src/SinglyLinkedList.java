@@ -141,7 +141,8 @@ public class SinglyLinkedList<T> {
         int i=0,pos=0;
 
         while(node!=null){
-            if (node.getValue().equals(elem)){
+
+            if (node.getValue()!=null && node.getValue().equals(elem)){
                 array[pos]=i;
                 pos++;
             }
@@ -159,23 +160,25 @@ public class SinglyLinkedList<T> {
         return final_array;
     }
 
-    public void remove_pos(int pos){
-        if (isEmpty()||pos>=size|| pos<0){
-            return;
+    public T removePos(int pos) {
+        if (isEmpty() || pos >= size || pos < 0) {
+            return null;
         }
-        Node<T> node = first;
-        if (pos==0){
-            first=node.getNext();
-        }
-        for(int i=0;i<pos-1;i++){
-            node=node.getNext();
-        }
-        node.setNext(node.getNext().getNext());
-
+        Node<T> cur = first;
         size--;
+        if (pos == 0) {
+            T ret = cur.getValue();
+            first = cur.getNext();
+            return ret;
+        } else {
+            for (int i = 0; i < pos - 1; i++) {
+                cur = cur.getNext();
+            }
+            T ret = cur.getNext().getValue();
+            cur.setNext(cur.getNext().getNext());
+            return ret;
+        }
     }
-
-
     public void removeNode(Node<T> remove_node){
         Node<T> node = first;
         if (node.equals(remove_node)){
@@ -184,7 +187,7 @@ public class SinglyLinkedList<T> {
             return;
         }
         while(node.getNext()!=null){
-            if ((node.getNext().getValue()).equals(remove_node.getValue())){
+            if (node.getNext().getValue()!=null&&(node.getNext().getValue()).equals(remove_node.getValue())){
                 node.setNext(node.getNext().getNext());
                 size--;
                 break;
@@ -193,11 +196,29 @@ public class SinglyLinkedList<T> {
         }
 
     }
-    public void remove(SinglyLinkedList<T> toRemove){
 
+    public void remove(SinglyLinkedList<T> toRemove){
+        Node<T> remove_node = toRemove.first;
+        while(remove_node!=null){
+            int[] arr = occurrences(remove_node.getValue());
+            if (arr!=null){
+                for (int j=0;j<arr.length;j++){
+                    removePos(arr[j]);
+                    arr=subarray(arr);
+                }
+            }
+            remove_node=remove_node.getNext();
+        }
     }
 
-    //2 ciclos while e remove cada node com valor igual ao valor dos nodes da lista para remover
+    public int[] subarray(int[] arr){
+        for (int i=0;i< arr.length;i++){
+            arr[i]--;
+        }
+        return arr;
+    }
+
+    //2 ciclos while e remove cada node com valor igual ao valor dos nodes da lista para remover FUNCIONA
     /*
     public void remove(SinglyLinkedList<T> toRemove){
         Node<T> remove_node = toRemove.first;

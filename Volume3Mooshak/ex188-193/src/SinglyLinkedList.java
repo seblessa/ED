@@ -92,7 +92,7 @@ public class SinglyLinkedList<T> {
     //Recebe o valor da posição pos
     public T get(int pos) {
         Node<T> cur = first;
-        if (isEmpty() || pos >= size || pos < 0) {
+        if (isEmpty() || pos >= size() || pos < 0) {
             return null;
         }
         for (int i = 0; i < pos; i++) {

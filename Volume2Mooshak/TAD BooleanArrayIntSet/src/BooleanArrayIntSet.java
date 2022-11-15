@@ -3,7 +3,7 @@ public class BooleanArrayIntSet implements IntSet{
     private int size;
     private final int max_size;
 
-    public BooleanArrayIntSet(int max_size){
+    BooleanArrayIntSet(int max_size){
         elem= new boolean[max_size + 1];
         size=0;
         this.max_size=max_size;

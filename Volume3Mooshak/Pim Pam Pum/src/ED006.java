@@ -6,7 +6,6 @@ public class ED006 {
         int N = input.nextInt();
         int n;
         input.nextLine();
-        int p=100;
         String frase;
         String[] palavras;
 
@@ -16,7 +15,6 @@ public class ED006 {
             frase=input.nextLine();
             palavras=frase.split(" ");
             n=input.nextInt();
-            boolean bool=false;
             for (int j=0;j<n;j++){
                 list.addLast(input.next());
             }
