@@ -178,7 +178,7 @@ public class SinglyLinkedList<T> {
     //remove todas as repetições de v da lista
     public void removeAll(T v){
         Node<T> curr = first;
-        for (int i=0;i<size;i++){
+        for (int i=0;i<size();i++){
             if (curr.getValue().equals(v)){
                 remove(i);
                 i--;
