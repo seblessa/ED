@@ -3,34 +3,58 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ED.iml" filepath="$PROJECT_DIR$/.idea/ED.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume5/ED198/ED198.iml" filepath="$PROJECT_DIR$/Volume5/ED198/ED198.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume5/ED200/ED200.iml" filepath="$PROJECT_DIR$/Volume5/ED200/ED200.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume5/ED201/ED201.iml" filepath="$PROJECT_DIR$/Volume5/ED201/ED201.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED231/ED231.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED231/ED231.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED232/ED232.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED232/ED232.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED235/ED235.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED235/ED235.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED236/ED236.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED236/ED236.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED237/ED237.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED237/ED237.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED238/ED238.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED238/ED238.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED268/ED268.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED268/ED268.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED269/ED269.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED269/ED269.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED270/ED270.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED270/ED270.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/ED271/ED271.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/ED271/ED271.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume4/MyQueue (ED196-197)/MyQueue (ED196-197).iml" filepath="$PROJECT_DIR$/Volume4/MyQueue (ED196-197)/MyQueue (ED196-197).iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume4/MyStack(ED194-195)/MyStack(ED194-195).iml" filepath="$PROJECT_DIR$/Volume4/MyStack(ED194-195)/MyStack(ED194-195).iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume3/Pim Pam Pum/Pim Pam Pum.iml" filepath="$PROJECT_DIR$/Volume3/Pim Pam Pum/Pim Pam Pum.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" filepath="$PROJECT_DIR$/Volume2/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" filepath="$PROJECT_DIR$/Volume2/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/TAD Matriz/TAD Matriz.iml" filepath="$PROJECT_DIR$/Volume2/TAD Matriz/TAD Matriz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" filepath="$PROJECT_DIR$/Volume2/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/TAD Rectangulo/TAD Rectangulo.iml" filepath="$PROJECT_DIR$/Volume2/TAD Rectangulo/TAD Rectangulo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume1/Volume1.iml" filepath="$PROJECT_DIR$/Volume1/Volume1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume2/Volume2.iml" filepath="$PROJECT_DIR$/Volume2/Volume2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume3/Volume3.iml" filepath="$PROJECT_DIR$/Volume3/Volume3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume4/Volume4.iml" filepath="$PROJECT_DIR$/Volume4/Volume4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume5/Volume5.iml" filepath="$PROJECT_DIR$/Volume5/Volume5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Volume3/ex188-193/ex188-193.iml" filepath="$PROJECT_DIR$/Volume3/ex188-193/ex188-193.iml" />
-      <module fileurl="file://$PROJECT_DIR$/prepatation_for_test1/prepatation_for_test1.iml" filepath="$PROJECT_DIR$/prepatation_for_test1/prepatation_for_test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica11/ED164/ED164.iml" filepath="$PROJECT_DIR$/Pratica11/ED164/ED164.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica11/ED172/ED172.iml" filepath="$PROJECT_DIR$/Pratica11/ED172/ED172.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica8/ED198/ED198.iml" filepath="$PROJECT_DIR$/Pratica8/ED198/ED198.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica9/ED200/ED200.iml" filepath="$PROJECT_DIR$/Pratica9/ED200/ED200.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica9/ED201/ED201.iml" filepath="$PROJECT_DIR$/Pratica9/ED201/ED201.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED204/ED204.iml" filepath="$PROJECT_DIR$/Pratica10/ED204/ED204.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED205/ED205.iml" filepath="$PROJECT_DIR$/Pratica10/ED205/ED205.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED206/ED206.iml" filepath="$PROJECT_DIR$/Pratica10/ED206/ED206.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED207/ED207.iml" filepath="$PROJECT_DIR$/Pratica10/ED207/ED207.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica11/ED208/ED208.iml" filepath="$PROJECT_DIR$/Pratica11/ED208/ED208.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED211/ED211.iml" filepath="$PROJECT_DIR$/Pratica10/ED211/ED211.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED212/ED212.iml" filepath="$PROJECT_DIR$/Pratica10/ED212/ED212.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/ED213/ED213.iml" filepath="$PROJECT_DIR$/Pratica10/ED213/ED213.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED231/ED231.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED231/ED231.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED232/ED232.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED232/ED232.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED235/ED235.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED235/ED235.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED236/ED236.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED236/ED236.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED237/ED237.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED237/ED237.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED238/ED238.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED238/ED238.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED268/ED268.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED268/ED268.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED269/ED269.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED269/ED269.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED270/ED270.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED270/ED270.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/ED271/ED271.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/ED271/ED271.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica7/MyQueue (ED196-197)/MyQueue (ED196-197).iml" filepath="$PROJECT_DIR$/Pratica7/MyQueue (ED196-197)/MyQueue (ED196-197).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica7/MyStack(ED194-195)/MyStack(ED194-195).iml" filepath="$PROJECT_DIR$/Pratica7/MyStack(ED194-195)/MyStack(ED194-195).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica7/Pim Pam Pum/Pim Pam Pum.iml" filepath="$PROJECT_DIR$/Pratica7/Pim Pam Pum/Pim Pam Pum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica1/Pratica1.iml" filepath="$PROJECT_DIR$/Pratica1/Pratica1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica10/Pratica10.iml" filepath="$PROJECT_DIR$/Pratica10/Pratica10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica11/Pratica11.iml" filepath="$PROJECT_DIR$/Pratica11/Pratica11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica12/Pratica12.iml" filepath="$PROJECT_DIR$/Pratica12/Pratica12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica2/Pratica2.iml" filepath="$PROJECT_DIR$/Pratica2/Pratica2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica3/Pratica3.iml" filepath="$PROJECT_DIR$/Pratica3/Pratica3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica4/Pratica4.iml" filepath="$PROJECT_DIR$/Pratica4/Pratica4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica5/Pratica5.iml" filepath="$PROJECT_DIR$/Pratica5/Pratica5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica6/Pratica6.iml" filepath="$PROJECT_DIR$/Pratica6/Pratica6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica7/Pratica7.iml" filepath="$PROJECT_DIR$/Pratica7/Pratica7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica8/Pratica8.iml" filepath="$PROJECT_DIR$/Pratica8/Pratica8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica9/Pratica9.iml" filepath="$PROJECT_DIR$/Pratica9/Pratica9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/Preparacao_teste_1.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/Preparacao_teste_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_2/Preparacao_teste_2.iml" filepath="$PROJECT_DIR$/Preparacao_teste_2/Preparacao_teste_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica5/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" filepath="$PROJECT_DIR$/Pratica5/TAD ArrayListIntSet/TAD ArrayListIntSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica5/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" filepath="$PROJECT_DIR$/Pratica5/TAD BooleanArrayIntSet/TAD BooleanArrayIntSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica3/TAD Matriz/TAD Matriz.iml" filepath="$PROJECT_DIR$/Pratica3/TAD Matriz/TAD Matriz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica5/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" filepath="$PROJECT_DIR$/Pratica5/TAD Numeros Arbitrariamente Grandes/TAD Numeros Arbitrariamente Grandes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica3/TAD Rectangulo/TAD Rectangulo.iml" filepath="$PROJECT_DIR$/Pratica3/TAD Rectangulo/TAD Rectangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/Triangulo/Triangulo.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/Triangulo/Triangulo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/V/V.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/V/V.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/Z/Z.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/Z/Z.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica6/ex188-193/ex188-193.iml" filepath="$PROJECT_DIR$/Pratica6/ex188-193/ex188-193.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/inverter/inverter.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/inverter/inverter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/treino.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/treino.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparacao_teste_1/treino/y/y.iml" filepath="$PROJECT_DIR$/Preparacao_teste_1/treino/y/y.iml" />
     </modules>
   </component>
 </project>
