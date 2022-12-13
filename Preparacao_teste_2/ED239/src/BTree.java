@@ -1,6 +1,6 @@
 // -----------------------------------------------------------
-// Estruturas de Dados 2022/2023 (CC1007) - DCC/FCUP
-// http://www.dcc.fc.up.pt/~pribeiro/aulas/edados2223/
+// Estruturas de Dados 2021/2022 (CC1007) - DCC/FCUP
+// http://www.dcc.fc.up.pt/~pribeiro/aulas/edados2122/
 // -----------------------------------------------------------
 // Arvore binaria "normal"
 // Ultima alteracao: 26/04/2018
@@ -146,21 +146,33 @@ public class BTree<T> {
       System.out.println();
    }
 
-   public T path(String s){
-      BTNode<T> n=root;
-      if (s.equals("R")) return n.getValue();
-      for (int i=0;i<s.length();i++){
-         n=path(n,s.charAt(i));
-      }
-      return n.getValue();
+   public int count(){
+      return count(root);
+   }
+   private int count(BTNode<T> n){
+      if (n==null) return 0;
+      if (n.getLeft()!=null && n.getRight()==null) return 1+count(n.getLeft()) + count(n.getRight());
+      if (n.getLeft()==null && n.getRight()!=null) return 1+count(n.getLeft()) + count(n.getRight());
+      return count(n.getLeft()) + count(n.getRight());
    }
 
-   public BTNode<T> path(BTNode<T> n,char c){
-      if (c=='E'){
-         return n.getLeft();
-      } else if (c=='D') {
-         return n.getRight();
-      }else return null;
+   public int level(T v){
+      return level(v,root,0);
    }
+   private int level(T v,BTNode<T> n,int k){
+      if (n==null) return -1;
+      if (n.getValue().equals(v)) return k;
+      int left=level(v,n.getLeft(),k+1);
+      int right=level(v,n.getRight(),k+1);
+      if (left!=-1 && right!= -1){
+         return Math.min(left,right);
+      }else return Math.max(left,right);
+   }
+
+
+
+
+
+
 
 }
