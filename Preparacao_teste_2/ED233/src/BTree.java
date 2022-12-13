@@ -146,25 +146,66 @@ public class BTree<T> {
       System.out.println();
    }
 
-   public T path(String s){
-      BTNode<T> n=root;
-      if (s.equals("R")) return n.getValue();
-
-      for (int i=0;i<s.length();i++){
-         n=path(n,s.charAt(i));
-      }
-
-      return n.getValue();
+   public int internal(){
+      int a=internal(root);
+      return numberNodes()-a;
+   }
+   public int internal(BTNode<T> n){
+      if (n==null) return 0;
+      if (n.getLeft()==null && n.getRight()==null) return 1;
+      return internal(n.getLeft())+internal(n.getRight());
    }
 
-   public BTNode<T> path(BTNode<T> n,char c){
-      if (c=='R'){
-         return n;
-      } else if (c=='E'){
-         return n.getLeft();
-      } else if (c=='D') {
-         return n.getRight();
-      }else return null;
+
+   public void cut(int d){
+      if (d<=0){
+         root=null;
+      }else cut(d,root);
+   }
+   public void cut(int d,BTNode<T> n){
+      if (n==null)return;
+      if (d-1==0){
+         n.setLeft(null);
+         n.setRight(null);
+      }
+      cut(d-1,n.getLeft());
+      cut(d-1,n.getRight());
+   }
+
+
+
+
+   public int[] maxLevel(){
+      int[] a_b= new int[2];
+      int max=0,cur;
+      for (int i=0;i<depth()+1;i++){
+         cur=numnodes(root,i);
+         if (cur>max) max=cur;
+      }
+      a_b[0]=max;
+      int count=0;
+      for (int i=0;i<depth()+1;i++){
+         if (level_check(max,i)) count++;
+      }
+      a_b[1]=count;
+      return a_b;
+   }
+
+   // returns number of nodes in k level
+   public int numnodes(BTNode<T> n,int k){
+      if (n==null) return 0;
+      if (k==0) return 1;
+      return numnodes(n.getLeft(),k-1)+numnodes(n.getRight(),k-1);
+   }
+
+   public boolean level_check(int num,int k){
+      return level_check(root,num,k);
+   }
+
+   public boolean level_check(BTNode<T> n,int num,int k){
+      if (n==null) return false;
+      if (numnodes(n,k)==num) return true;
+      return level_check(n.getLeft(),num,k-1)&&level_check(n.getRight(),num,k-1);
    }
 
 }
