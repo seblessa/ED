@@ -36,7 +36,7 @@ public class ED234 {
         BSTMap<String,Integer> map = new BSTMap<>();
         for (int i=0;i<N;i++){
             String[] movie = in.nextLine().split(" ");
-            if (contains(map,movie[0])){
+            if (map.get(movie[0])!=null){
                 map.put(movie[0],map.get(movie[0])+1);
             }else map.put(movie[0],1);
         }
@@ -56,24 +56,16 @@ public class ED234 {
 
     }
 
-    public static boolean contains(BSTMap<String,Integer> map ,String movie){
-        LinkedList<String> keys = map.keys();
-        for (String k:keys){
-            if (k.equals(movie)) return true;
-        }
-        return false;
-    }
-
     public static void flag3(int N,Scanner in){
         BSTMap<String,Integer> map_total = new BSTMap<>();
         BSTMap<String,Integer> map_n = new BSTMap<>();
         for (int i=0;i<N;i++){
             String[] movie = {in.next(), String.valueOf(in.nextInt())};
             in.nextLine();
-            if (contains(map_total,movie[0])){
+            if (map_total.get(movie[0])!=null){
                 map_total.put(movie[0], map_total.get(movie[0])+Integer.valueOf(movie[1]));
             }else map_total.put(movie[0],Integer.valueOf(movie[1]));
-            if (contains(map_n,movie[0])){
+            if (map_n.get(movie[0])!=null){
                 map_n.put(movie[0],map_n.get(movie[0])+1);
             }else map_n.put(movie[0],1);
         }
