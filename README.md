@@ -1,2 +1,2 @@
 # Estruturas de Dados
-Exercícios de Estruturas de Dados, FCUP L:IACD 2ºAno 1ºSemestre
+Here are my entire class organized by my Practical Classes.
